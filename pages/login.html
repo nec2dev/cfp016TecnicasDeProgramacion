@@ -11,7 +11,60 @@
   <body>
     <header id="headerpage" class="bg-body-tertiary"></header>
     <main class="container">
-      <h2>Login</h2>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+              <div class="card bg-whit m-5">
+                <div class="card-body p-5">
+                  <form class="mb-3 mt-md-4">
+                    <h2 class="fw-bold mb-2">eCommerce</h2>
+                    <p class="mb-5">Please enter your login and password!</p>
+                    <div class="mb-3">
+                      <label for="email" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="password" class="form-label">Password</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="password"
+                        placeholder="*******"
+                      />
+                    </div>
+                    <p class="small">
+                      <a class="text-secondary" href="forget-password.html"
+                        >Forgot password?</a
+                      >
+                    </p>
+                    <div class="d-grid">
+                      <button class="btn btn-outline-dark" type="submit">
+                        Login
+                      </button>
+                    </div>
+                  </form>
+                  <div>
+                    <p class="mb-0 text-center">
+                      Don't have an account?
+                      <a href="./register.html" class="text-secondary fw-bold"
+                        >Sign Up</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer id="footer" class="bg-body-tertiary"></footer>
     <script src="../components/Header/headerpage.js"></script>
